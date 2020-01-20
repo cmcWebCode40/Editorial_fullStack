@@ -1,5 +1,5 @@
-const pathe = require("path");
+const { join } = require("path");
 module.exports = path = {
-  postFolder: pathe.join(__dirname, "public", "img", "post"),
-  galleryFolder: pathe.join(__dirname, "public", "img", "gallery")
-}; 
+  postFolder: join(__dirname, "public", "img", "post"),
+  galleryFolder: join(__dirname, "public", "img", "gallery")
+};
